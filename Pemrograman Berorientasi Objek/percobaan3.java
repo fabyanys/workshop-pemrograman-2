@@ -26,7 +26,7 @@ class acaraTV {
 public class percobaan3 {
     public static void main(String[] args) {
         acaraTV a = new acaraTV();
-        a.setStasiunTV("Indosiar");
+        a.setStasiunTV ("Indosiar");
         a.setAcara("Sinetron");
         a.cetak();
     }
