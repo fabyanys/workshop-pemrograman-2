@@ -37,8 +37,8 @@ class TRI extends PENS{
 
 public class percobaan3 {
     public static void main(String[] args) {
-        Telkom t = new Telkom("Andi", 062, "Matematika");
-        TRI tr = new TRI("Budi", 124, "Satelit");
+        Telkom t = new Telkom("Andi", 062, "Elektromagnetika");
+        TRI tr = new TRI("Budi", 124, "Matematika");
         t.info();
         tr.info();
     }
