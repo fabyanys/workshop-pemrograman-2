@@ -26,7 +26,12 @@ class Employee1 {
 
     public void getinfo(){
         System.out.println("Nama : " + name);
-        System.out.println("Gaji : " + salary);
+        if (birthDate != null) {
+            System.out.println("Tanggal Lahir : " + birthDate);
+        } else {
+            System.out.print("");
+        }
+        System.out.println("Gaji Bulanan : " + salary);
     }
 }
 
@@ -55,7 +60,9 @@ class Manager extends Employee1 {
 
 public class percobaan1 {
     public static void main(String[] args) {
-        Manager m = new Manager("Andi", 10000, "Telkom");
+        Employee1 e = new Employee1("Budi", new Date(2000, 10, 10));
+        Manager m = new Manager("Andi", 20000, "Telkom");
+        e.getinfo();
         m.getinfo();
     }
 }

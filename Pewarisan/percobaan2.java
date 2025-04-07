@@ -55,15 +55,15 @@ public class percobaan2 {
     public static void main(String[] args) {
         Lingkaran l = new Lingkaran(10);
         Persegipanjang p = new Persegipanjang(5, 4);
-        Segitiga s = new Segitiga(6, 7);
-        Bentuk b[] = new Bentuk[10];
-
-        b[0] = new Lingkaran(Math.random() * 10);
-        double luaslingkaran = b[0].getLuas();
-        System.out.println("Luas Lingkaran : " + luaslingkaran);
+        Segitiga s = new Segitiga(6, 7);       
 
         System.out.println("Luas Lingkaran : " + l.getLuas());
         System.out.println("Luas Persegi Panjang : " + p.getLuas());
         System.out.println("Luas Segitiga : " + s.getLuas());
+
+        Bentuk b[] = new Bentuk[10];
+        b[0] = new Lingkaran(Math.random() * 10);
+        double luaslingkaran = b[0].getLuas();
+        System.out.println("Luas Lingkaran acak : " + luaslingkaran);
     }
 }
