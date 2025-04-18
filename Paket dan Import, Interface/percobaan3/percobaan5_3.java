@@ -3,12 +3,30 @@ interface A {
     public void method2();
 }
 
-interface B{
+interface B extends A {
     public void method3();
     public void method4();
 }
 
-class implementasi implements A, B {
+class implementasi implements B {
+    public void method1() {
+        System.out.println("Implementasi method 1......");
+    }
+
+    public void method2() {
+        System.out.println("Implementasi method 2......");
+    }
+
+    public void method3() {
+        System.out.println("Implementasi method 3......");
+    }
+
+    public void method4() {
+        System.out.println("Implementasi method 4......");
+    }
+}
+
+class andi implements A,B{
     public void method1() {
         System.out.println("Implementasi method 1......");
     }

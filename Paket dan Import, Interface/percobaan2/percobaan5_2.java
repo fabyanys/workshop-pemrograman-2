@@ -1,5 +1,6 @@
-import perbankan.Nasabah;
-import perbankan.Tabungan;
+// import perbankan.Nasabah;
+// import perbankan.Tabungan;
+import perbankan.*;
 
 public class percobaan5_2 {
     public static void main(String[] args) {
