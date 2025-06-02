@@ -26,24 +26,6 @@ class implementasi implements B {
     }
 }
 
-class andi implements A,B{
-    public void method1() {
-        System.out.println("Implementasi method 1......");
-    }
-
-    public void method2() {
-        System.out.println("Implementasi method 2......");
-    }
-
-    public void method3() {
-        System.out.println("Implementasi method 3......");
-    }
-
-    public void method4() {
-        System.out.println("Implementasi method 4......");
-    }
-}
-
 public class percobaan5_3 {
     public static void main(String[] args) {
         implementasi impl = new implementasi();

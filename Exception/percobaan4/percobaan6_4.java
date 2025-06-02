@@ -5,8 +5,8 @@ public class percobaan6_4 {
         int bil = 10;
         String b[] = {"A", "B", "C"};
         try {
-            System.out.println(bil / 0);
             System.out.println(b[3]);
+            System.out.println(bil / 0);
         } catch (ArithmeticException ai) {
             System.out.println("Error aritmetik");
         } catch (ArrayIndexOutOfBoundsException n) {
